@@ -1,9 +1,7 @@
  $(document).ready(function(){ 
-  
-   $('#title').hide();
-   $('#deslog').hide();
-   $('#devlog').hide();
-   $('#devlog2').hide();
+  window.scrollTo(0, 0);
+   $('.draw').hide();
+
    $("#title").fadeIn("slow"); 
 
    $('#deslink').click(function() {
@@ -44,4 +42,9 @@
     }
 
   });
+
+   $('#introLink').click(function() {
+    
+      window.location.reload();
+   })
  });

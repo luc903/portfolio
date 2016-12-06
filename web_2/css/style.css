@@ -5,6 +5,7 @@
 
 body {
 	font-family: 'Aaargh-webfont';
+	height: 100%;
 }
 
 html {
@@ -23,7 +24,7 @@ a:link, a:hover, a:active, a:visited {
 
 
 .section {
-	height: 1000px;
+	height: 100vh;
 	padding-top: 100px;
 	margin-left: -20px;
 	margin-right: -20px;
